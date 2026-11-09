@@ -25,7 +25,7 @@
 # Chapter 1
 
 - **Saturday, Nov 14: Kickoff and Onboarding**
-- Data and Workspace Introduction (Mayo Clinic Platform TSMs, 10:00–11:20)
+- Data and Workspace Introduction (Mayo Clinic Platform TSMs, 10:00 to 11:20 AM)
 - Google Tools Introduction and Saturday Build Sprint
 - Sunday, Nov 15: Build Day
 - Monday, Nov 16: Finals and Awards
@@ -53,7 +53,7 @@
 # Saturday Morning: Kickoff and Clinical Briefings
 
 ### 8:30 to 9:10 AM: Opening Keynote
-- **Session**: Welcoming Remarks and Opening Keynote - *Mayo Clinic Platform and the Power of Data*
+- **Session**: Welcoming Remarks and Opening Keynote: *Mayo Clinic Platform and the Power of Data*
 - **Speaker**: Dr. Gelareh Zadeh (live speaker deck handoff)
 - **Focus**: How large-scale clinical datasets and platform engineering accelerate surgical discovery and patient outcomes
 
@@ -73,7 +73,7 @@
 # Chapter 1
 
 - Saturday, Nov 14: Kickoff and Onboarding
-- **Data and Workspace Introduction (Mayo Clinic Platform TSMs, 10:00–11:20)**
+- **Data and Workspace Introduction (Mayo Clinic Platform TSMs, 10:00 to 11:20 AM)**
 - Google Tools Introduction and Saturday Build Sprint
 - Sunday, Nov 15: Build Day
 - Monday, Nov 16: Finals and Awards
@@ -121,14 +121,14 @@
 # Chapter 1
 
 - Saturday, Nov 14: Kickoff and Onboarding
-- Data and Workspace Introduction (Mayo Clinic Platform TSMs, 10:00–11:20)
+- Data and Workspace Introduction (Mayo Clinic Platform TSMs, 10:00 to 11:20 AM)
 - **Google Tools Introduction and Saturday Build Sprint**
 - Sunday, Nov 15: Build Day
 - Monday, Nov 16: Finals and Awards
 
 ---
 
-# Google Tools Introduction: Live Demo and Antigravity CLI (11:20 to 12:00)
+# Google Tools Introduction: Live Demo and Antigravity CLI (11:20 AM to 12:00 PM)
 
 - Live hands-on walkthrough led by the Google team (no slide deck - live terminal and workspace screen share)
 - Covers Google Cloud environment setup, AI development workflows, and the Antigravity CLI inside your virtual machine
@@ -168,7 +168,7 @@ antigravity --help
 # Chapter 1
 
 - Saturday, Nov 14: Kickoff and Onboarding
-- Data and Workspace Introduction (Mayo Clinic Platform TSMs, 10:00–11:20)
+- Data and Workspace Introduction (Mayo Clinic Platform TSMs, 10:00 to 11:20 AM)
 - Google Tools Introduction and Saturday Build Sprint
 - **Sunday, Nov 15: Build Day**
 - Monday, Nov 16: Finals and Awards
@@ -209,7 +209,7 @@ antigravity --help
 # Chapter 1
 
 - Saturday, Nov 14: Kickoff and Onboarding
-- Data and Workspace Introduction (Mayo Clinic Platform TSMs, 10:00–11:20)
+- Data and Workspace Introduction (Mayo Clinic Platform TSMs, 10:00 to 11:20 AM)
 - Google Tools Introduction and Saturday Build Sprint
 - Sunday, Nov 15: Build Day
 - **Monday, Nov 16: Finals and Awards**
@@ -234,7 +234,7 @@ antigravity --help
 <!-- below-columns -->
 
 > [!WARNING]
-> Do not wait until afternoon to request data exports. Figures for your presentation must be submitted with mentors during Build Sprint 4 (8:30 to 11:00 AM) and decks lock at 2:30 PM.
+> Do not wait until the afternoon to request data exports. Figures for your presentation must be submitted with mentors during Build Sprint 4 (8:30 to 11:00 AM) and decks lock at 2:30 PM.
 
 ---
 
@@ -337,7 +337,7 @@ It is Sunday at 3:30 PM during Build Sprint 3. Your team has a promising surgica
 - Raw clinical note text and individual patient rows cannot leave the Behind Glass workspace
 - Convert insights into aggregate performance charts and summary tables that meet export rules
 - Pre-fill the Export Template before Sunday 6:00 PM so figures are ready for mentor review at 8:30 AM Monday
-- Freeze major model changes early enough to leave Monday Afternoon Sprint 5 for presentation coaching
+- Freeze major model changes early enough to leave Monday afternoon Sprint 5 for presentation coaching
 
 ### Watch For
 - Planning to screenshot individual patient records or raw surgical notes for the pitch deck

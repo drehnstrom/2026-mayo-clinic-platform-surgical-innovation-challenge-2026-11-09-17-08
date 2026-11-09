@@ -41,7 +41,7 @@
 <!-- layout: panel-right -->
 # Who Should Attend
 
-- Data Scientists, AI and ML engineers, and Healthcare Researchers
+- Data Scientists, AI and ML Engineers, and Healthcare Researchers
 
 ![Who Should Attend](images/who-should-attend.png)
 
