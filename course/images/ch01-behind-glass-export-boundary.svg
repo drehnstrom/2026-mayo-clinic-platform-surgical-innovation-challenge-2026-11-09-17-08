@@ -1,78 +1,108 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" role="img" aria-label="Behind Glass enclave holding de-identified surgical tables, clinical notes, and model training, with an export template gate that blocks raw rows and passes only approved summary figures to the presentation deck">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 540" role="img" aria-label="Behind Glass enclave containing surgical data rows and clinical notes, where raw patient rows are blocked at the glass boundary and only aggregated chart bars pass through the export template gate to the presentation slide">
   <defs>
-    <linearGradient id="enclaveBorder" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="glassWall" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#1e71d6"/>
       <stop offset="0.5" stop-color="#6a55e4"/>
       <stop offset="1" stop-color="#bd35c2"/>
     </linearGradient>
-    <linearGradient id="gateFill" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="chartGrad" x1="0" y1="1" x2="0" y2="0">
       <stop offset="0" stop-color="#1e71d6"/>
-      <stop offset="1" stop-color="#6a55e4"/>
+      <stop offset="1" stop-color="#bd35c2"/>
     </linearGradient>
   </defs>
 
-  <!-- Enclave boundary (Behind Glass) -->
-  <rect x="24" y="36" width="284" height="448" rx="18" fill="none" stroke="url(#enclaveBorder)" stroke-width="3" stroke-dasharray="10 6"/>
-  <text x="44" y="68" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="700">BEHIND GLASS WORKSPACE</text>
+  <!-- Enclave Structural Frame (Left Side: Inside Behind Glass) -->
+  <rect x="20" y="36" width="276" height="468" rx="14" fill="none" stroke="#082445" stroke-width="3"/>
+  <rect x="290" y="36" width="10" height="468" rx="4" fill="url(#glassWall)"/>
 
-  <!-- De-identified structured data grid -->
-  <g transform="translate(44,92)">
-    <rect x="0" y="0" width="244" height="104" rx="10" fill="#082445"/>
-    <text x="16" y="26" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">De-Identified Surgical Data</text>
-    <!-- Mini table cells -->
-    <rect x="16" y="38" width="64" height="14" rx="2" fill="#1e71d6"/>
-    <rect x="86" y="38" width="64" height="14" rx="2" fill="#1e71d6"/>
-    <rect x="156" y="38" width="72" height="14" rx="2" fill="#1e71d6"/>
-    <rect x="16" y="58" width="64" height="12" rx="2" fill="#495f7a"/>
-    <rect x="86" y="58" width="64" height="12" rx="2" fill="#495f7a"/>
-    <rect x="156" y="58" width="72" height="12" rx="2" fill="#495f7a"/>
-    <rect x="16" y="76" width="64" height="12" rx="2" fill="#495f7a"/>
-    <rect x="86" y="76" width="64" height="12" rx="2" fill="#495f7a"/>
-    <rect x="156" y="76" width="72" height="12" rx="2" fill="#495f7a"/>
+  <text x="38" y="64" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" letter-spacing="1">INSIDE ENCLAVE</text>
+  <text x="330" y="64" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" letter-spacing="1">EXTERNAL DECK</text>
+
+  <!-- Actual Object 1: De-identified Surgical Table (Grid of Cells) -->
+  <g transform="translate(38,84)">
+    <rect x="0" y="0" width="224" height="132" rx="8" fill="#082445"/>
+    <!-- Table Header Row -->
+    <rect x="12" y="12" width="44" height="12" rx="2" fill="#1e71d6"/>
+    <rect x="62" y="12" width="68" height="12" rx="2" fill="#1e71d6"/>
+    <rect x="136" y="12" width="40" height="12" rx="2" fill="#1e71d6"/>
+    <rect x="182" y="12" width="30" height="12" rx="2" fill="#1e71d6"/>
+    <!-- Data Rows -->
+    <g fill="#495f7a">
+      <rect x="12" y="32" width="44" height="10" rx="2"/>
+      <rect x="62" y="32" width="68" height="10" rx="2"/>
+      <rect x="136" y="32" width="40" height="10" rx="2"/>
+      <rect x="182" y="32" width="30" height="10" rx="2"/>
+
+      <rect x="12" y="48" width="44" height="10" rx="2"/>
+      <rect x="62" y="48" width="68" height="10" rx="2"/>
+      <rect x="136" y="48" width="40" height="10" rx="2"/>
+      <rect x="182" y="48" width="30" height="10" rx="2"/>
+
+      <rect x="12" y="64" width="44" height="10" rx="2"/>
+      <rect x="62" y="64" width="68" height="10" rx="2"/>
+      <rect x="136" y="64" width="40" height="10" rx="2"/>
+      <rect x="182" y="64" width="30" height="10" rx="2"/>
+
+      <rect x="12" y="80" width="44" height="10" rx="2"/>
+      <rect x="62" y="80" width="68" height="10" rx="2"/>
+      <rect x="136" y="80" width="40" height="10" rx="2"/>
+      <rect x="182" y="80" width="30" height="10" rx="2"/>
+    </g>
+    <text x="12" y="114" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">cohort_rows (n = 14,820)</text>
   </g>
 
-  <!-- Clinical notes and Google Cloud VM -->
-  <g transform="translate(44,216)">
-    <rect x="0" y="0" width="244" height="104" rx="10" fill="#082445"/>
-    <text x="16" y="26" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">Clinical Notes and Cloud VM</text>
-    <rect x="16" y="40" width="130" height="8" rx="4" fill="#6a55e4"/>
-    <rect x="16" y="56" width="110" height="8" rx="4" fill="#495f7a"/>
-    <rect x="16" y="72" width="140" height="8" rx="4" fill="#495f7a"/>
-    <rect x="166" y="38" width="62" height="50" rx="6" fill="#1e71d6"/>
-    <text x="197" y="68" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700">AI / ML</text>
+  <!-- Aggregation Funnel Inside Enclave -> Summary Metric -->
+  <path d="M 150 222 L 150 256 L 278 256" fill="none" stroke="#1e71d6" stroke-width="3"/>
+  <circle cx="150" cy="256" r="5" fill="#1e71d6"/>
+
+  <!-- Export Template Aperture in the Glass Wall -->
+  <rect x="280" y="218" width="30" height="76" rx="6" fill="#082445" stroke="#1e71d6" stroke-width="2"/>
+  <circle cx="295" cy="256" r="9" fill="#1e71d6"/>
+  <polyline points="291,256 294,260 300,252" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="295" y="206" text-anchor="middle" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700">Export Gate</text>
+  <text x="295" y="312" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="11">Sprint 4</text>
+
+  <!-- Signal Passing Through Gate to External Presentation Slide -->
+  <path d="M 310 256 L 342 256" fill="none" stroke="#1e71d6" stroke-width="3"/>
+  <polygon points="340,250 352,256 340,262" fill="#1e71d6"/>
+
+  <!-- Actual Object 2: Approved Presentation Slide with Aggregate Chart (Outside Glass) -->
+  <g transform="translate(356,154)">
+    <rect x="0" y="0" width="164" height="196" rx="10" fill="#082445"/>
+    <!-- Slide Header Bar -->
+    <rect x="16" y="18" width="96" height="8" rx="4" fill="#495f7a"/>
+    <!-- Aggregate Bar Chart Canvas -->
+    <line x1="24" y1="142" x2="144" y2="142" stroke="#495f7a" stroke-width="2"/>
+    <line x1="24" y1="48" x2="24" y2="142" stroke="#495f7a" stroke-width="2"/>
+    <rect x="36" y="102" width="18" height="40" rx="2" fill="#1e71d6"/>
+    <rect x="64" y="78" width="18" height="64" rx="2" fill="#6a55e4"/>
+    <rect x="92" y="54" width="18" height="88" rx="2" fill="url(#chartGrad)"/>
+    <rect x="120" y="68" width="18" height="74" rx="2" fill="#1e71d6"/>
+    <!-- Caption inside slide -->
+    <text x="82" y="168" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">Aggregate Figure</text>
+    <text x="82" y="184" text-anchor="middle" fill="#1e71d6" font-family="Inter, system-ui, sans-serif" font-size="11">Export Template</text>
   </g>
 
-  <!-- Blocked path: row-level records -->
-  <g transform="translate(44,344)">
-    <rect x="0" y="0" width="244" height="112" rx="10" fill="none" stroke="#495f7a" stroke-width="2"/>
-    <text x="16" y="28" fill="#1c1d1f" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">Stays Inside Workspace</text>
-    <text x="16" y="52" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="12">Row-level patient records</text>
-    <text x="16" y="72" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="12">Raw clinical note text</text>
-    <text x="16" y="92" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="12">Unreviewed files and weights</text>
-    <!-- Stop symbol at boundary -->
-    <circle cx="244" cy="56" r="14" fill="#bd35c2"/>
-    <line x1="237" y1="56" x2="251" y2="56" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <!-- Actual Object 3: Raw Patient Row and Clinical Note (Bottom Left, Blocked at Glass) -->
+  <g transform="translate(38,334)">
+    <rect x="0" y="0" width="214" height="140" rx="8" fill="none" stroke="#495f7a" stroke-width="2"/>
+    <!-- Single Patient Row strip -->
+    <rect x="14" y="16" width="186" height="24" rx="4" fill="#082445"/>
+    <text x="24" y="32" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="11" font-family="monospace">pt_id: 8492 | row_record</text>
+    <!-- Clinical Note Document lines with redacted blocks -->
+    <rect x="14" y="52" width="120" height="8" rx="3" fill="#495f7a"/>
+    <rect x="140" y="50" width="42" height="12" rx="2" fill="#bd35c2"/>
+    <rect x="14" y="68" width="168" height="8" rx="3" fill="#495f7a"/>
+    <rect x="14" y="84" width="92" height="8" rx="3" fill="#495f7a"/>
+    <rect x="112" y="82" width="54" height="12" rx="2" fill="#bd35c2"/>
+    <!-- Model Weights binary block -->
+    <text x="14" y="122" fill="#1c1d1f" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">raw_notes / weights.pt</text>
   </g>
 
-  <!-- Export Gate bridge -->
-  <path d="M 288 268 L 340 268" stroke="#1e71d6" stroke-width="4"/>
-  <polygon points="340,260 354,268 340,276" fill="#1e71d6"/>
-
-  <!-- Export Template Gate -->
-  <g transform="translate(358,156)">
-    <rect x="0" y="0" width="138" height="224" rx="14" fill="url(#gateFill)"/>
-    <text x="69" y="34" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">EXPORT GATE</text>
-    <text x="69" y="54" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="11">Export Template</text>
-    <text x="69" y="70" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="11">and Mentor Review</text>
-
-    <!-- Approved chart preview inside gate -->
-    <rect x="20" y="92" width="98" height="76" rx="8" fill="#082445"/>
-    <rect x="34" y="138" width="12" height="18" fill="#1e71d6"/>
-    <rect x="52" y="124" width="12" height="32" fill="#6a55e4"/>
-    <rect x="70" y="110" width="12" height="46" fill="#bd35c2"/>
-    <rect x="88" y="118" width="12" height="38" fill="#ffffff"/>
-
-    <text x="69" y="192" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600">Approved Figures</text>
-    <text x="69" y="208" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="11">Final Pitch Deck</text>
-  </g>
+  <!-- Blocked Trajectory hitting the Glass Wall -->
+  <path d="M 252 404 L 278 404" fill="none" stroke="#bd35c2" stroke-width="3" stroke-dasharray="5 4"/>
+  <circle cx="295" cy="404" r="14" fill="#bd35c2"/>
+  <line x1="288" y1="397" x2="302" y2="411" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="302" y1="397" x2="288" y2="411" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="322" y="408" fill="#bd35c2" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700">Blocked at Glass</text>
 </svg>

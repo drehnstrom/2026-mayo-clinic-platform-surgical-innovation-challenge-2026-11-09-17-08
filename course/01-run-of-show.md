@@ -113,7 +113,7 @@
   - Every export request must use the official Export Template and pass mentor review during Build Sprint 4
   - Attempting to copy raw data outside the workspace or re-identify patients violates platform policy
 
-![Behind Glass enclave holding de-identified surgical tables, clinical notes, and model training, with an export template gate that blocks raw rows and passes only approved summary figures to the presentation deck](images/ch01-behind-glass-export-boundary.svg)
+![Behind Glass enclave containing surgical data rows and clinical notes, where raw patient rows are blocked at the glass boundary and only aggregated chart bars pass through the export template gate to the presentation slide](images/ch01-behind-glass-export-boundary.svg)
 
 ---
 
@@ -184,7 +184,7 @@ antigravity --help
 - **1:00 to 5:00 PM**: Build Sprint 3 - clinical evaluation, subgroup error analysis, and drafting candidate export figures
 - **6:00 PM**: Workspace room closes; free evening for teams
 
-![Five build sprints progressing from Saturday afternoon through Sunday full build day to Monday morning export review and afternoon final presentations](images/ch01-sprint-progression-arc.svg)
+![Proportional hackathon sprint timeline across Saturday, Sunday, and Monday showing duration in hours, the Sunday 6:00 PM room close, the Monday 11:00 AM export gate, and the 2:30 PM deck lock](images/ch01-sprint-progression-arc.svg)
 
 ---
 
