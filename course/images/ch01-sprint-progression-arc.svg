@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 260" role="img" aria-label="Five build sprints progressing from Saturday afternoon through Sunday full build day to Monday morning export review and afternoon final presentations">
+  <defs>
+    <linearGradient id="sprintTrack" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1e71d6"/>
+      <stop offset="0.5" stop-color="#6a55e4"/>
+      <stop offset="1" stop-color="#bd35c2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main horizontal progression bar -->
+  <rect x="40" y="114" width="880" height="10" rx="5" fill="url(#sprintTrack)"/>
+
+  <!-- Day group brackets above -->
+  <text x="120" y="34" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">SATURDAY, NOV 14</text>
+  <text x="410" y="34" text-anchor="middle" fill="#1e71d6" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">SUNDAY, NOV 15 (BUILD DAY)</text>
+  <text x="760" y="34" text-anchor="middle" fill="#bd35c2" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">MONDAY, NOV 16 (FINALS)</text>
+
+  <!-- Sprint 1 Node -->
+  <g transform="translate(50,56)">
+    <rect x="0" y="0" width="140" height="126" rx="12" fill="#082445"/>
+    <text x="70" y="28" text-anchor="middle" fill="#1e71d6" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">SPRINT 1</text>
+    <text x="70" y="48" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="12">Sat 1:00 - 5:00</text>
+    <text x="70" y="76" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="12">Workspace Login</text>
+    <text x="70" y="96" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="11">Cohort and Baseline</text>
+  </g>
+
+  <!-- Sprint 2 Node -->
+  <g transform="translate(240,56)">
+    <rect x="0" y="0" width="150" height="126" rx="12" fill="#1e71d6"/>
+    <text x="75" y="28" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">SPRINT 2</text>
+    <text x="75" y="48" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="12">Sun 8:30 - 11:00</text>
+    <text x="75" y="76" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="12">Feature Pipeline</text>
+    <text x="75" y="96" text-anchor="middle" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600">Model Training</text>
+  </g>
+
+  <!-- Sprint 3 Node -->
+  <g transform="translate(420,56)">
+    <rect x="0" y="0" width="150" height="126" rx="12" fill="#6a55e4"/>
+    <text x="75" y="28" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">SPRINT 3</text>
+    <text x="75" y="48" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="12">Sun 1:00 - 5:00</text>
+    <text x="75" y="76" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="12">Error Analysis</text>
+    <text x="75" y="96" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="11">Draft Export Charts</text>
+  </g>
+
+  <!-- Sprint 4 Node -->
+  <g transform="translate(600,56)">
+    <rect x="0" y="0" width="145" height="126" rx="12" fill="#082445" stroke="#bd35c2" stroke-width="2"/>
+    <text x="72" y="28" text-anchor="middle" fill="#bd35c2" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">SPRINT 4</text>
+    <text x="72" y="48" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="12">Mon 8:30 - 11:00</text>
+    <text x="72" y="76" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="12">Export Figures</text>
+    <text x="72" y="96" text-anchor="middle" fill="#bd35c2" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700">With Mentors</text>
+  </g>
+
+  <!-- Sprint 5 and Finals Node -->
+  <g transform="translate(770,56)">
+    <rect x="0" y="0" width="150" height="126" rx="12" fill="#bd35c2"/>
+    <text x="75" y="28" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700">SPRINT 5 + FINALS</text>
+    <text x="75" y="48" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="12">Mon 12:00 - 5:30</text>
+    <text x="75" y="76" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="12">2:30 Deck Due</text>
+    <text x="75" y="96" text-anchor="middle" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700">3:00 Pitches · 5:30 Awards</text>
+  </g>
+
+  <!-- Bottom milestone callouts -->
+  <text x="410" y="222" text-anchor="middle" fill="#495f7a" font-family="Inter, system-ui, sans-serif" font-size="13">Sunday 6:00 PM: Workspace room closes for free evening</text>
+  <text x="760" y="222" text-anchor="middle" fill="#082445" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">Monday 11:00 AM Export Gate · 2:30 PM Final Deck Lock</text>
+</svg>
